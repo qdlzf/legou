@@ -1,0 +1,29 @@
+@charset "utf-8";
+#register{margin-top: 60px;}
+#register form input{border: none;outline: none;}
+#register > form{ width:400px; margin:0 auto; height:600px; border:none;}
+#register form p { border:1px solid #ccc; margin-bottom:30px; position: relative}
+#register form p.bdnone{border: none;}
+#register form p.bdnone span{color: #f60;}
+#register form p label{ display: inline-block; width:110px;line-height: 40px; color:#000; padding-left:20px;}
+#register form p label.error{
+    color:red !important; position:absolute; bottom: -15px; left:-10px; width:100%; height:auto; line-height: 0;
+}
+
+#register form p input[type="text"]{width:250px; height:40px; -border:1px solid red; }
+/*input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+input:-webkit-autofill{ background: #fff !important;}*/
+
+#register form p input.on{ width:100px;}
+#register form p img,#register form p a{
+    position: absolute; right: 3px; top:3px;
+}
+#register form p a{
+    width:124px; height:36px; text-align: center; line-height: 36px; color:#fff;
+    background: #ccc;
+}
+#register form p input[type='submit']{
+    width:400px; height:40px; color:#fff; background: #f60; border:none; font-size:20px; letter-spacing: 3px;
+}

@@ -1,0 +1,571 @@
+/* 设置样式编码格式 */
+@charset "utf-8";
+/* slideMenu */
+
+#slideMenu .menu{
+    width: 200px;
+    height: 400px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+#slideMenu .menu ul li p{
+    font-size: 14px;
+    color: #1a1a1a;
+    text-indent: 20px;
+    line-height: 36px;
+}
+#slideMenu .menu ul li:hover p{
+    background-color: #ffffff;
+    color: #ff6600;
+    border: 1px solid #ff6600;
+    position: relative; 
+    width: 200px; 
+    z-index: 110;
+    border-right: none;
+}
+#slideMenu .menu ul li:hover p a{
+    color: #ff6600;
+}
+#slideMenu .menu ul li dl{
+    width: 572px;
+    min-height: 430px;
+    border: 1px solid #ff6600;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    text-indent: 38px;
+    display: none;
+    z-index: 109;
+    background: #fff;
+}
+#slideMenu .menu ul li:hover dl{
+    display: block;
+}
+#slideMenu .menu ul li dl .bookNav{
+    line-height: 36px;
+}
+#slideMenu .menu ul li dl .bookNav a{
+    color: #1a1a1a;
+    margin-right: 20px;
+}
+#slideMenu .menu ul li dl dt:not(:first-child){
+    color: #ff6600;
+    border-bottom: 2px solid #ccc;
+    line-height: 36px;
+}
+#slideMenu .menu ul li dl dd a{
+    margin-right: 10px;
+    line-height: 36px;
+}
+/* reProdoct */
+#recommend .reProdoct{
+    width:1188px;
+    margin: 0 auto;
+    border:1px solid #ff6600;
+    border-top: none;
+}
+#recommend .indexTitle h2{
+    color: #ff6600 ;
+}
+#recommend .reProdoct ul li{
+    width:196px; 
+    border: #ff6600 1px solid;
+    float: left;
+    position: relative;
+}
+#recommend .reProdoct ul li a img{
+    display: block;
+    margin: 0 auto;
+}
+#recommend .reProdoct ul li h3{
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    display: block;
+    margin-top: 28px;
+}
+#recommend .reProdoct ul li p .allpro{
+    font-size: 14px;
+    color: #f4290d;
+}
+#recommend .reProdoct ul li p .money{
+    font-size: 24px;
+    color: #f4290d;
+}
+#recommend .reProdoct ul li .limit{
+    position: absolute;
+    left: -2px;
+}
+/* ebook */
+#ebook{
+    margin-top: 38px;
+    
+}
+#ebook .ebookTitle{
+    width: 895px;
+}
+#ebook .indexTitle ul li{
+    width:100px; 
+    height:34px; 
+    float:left; 
+    text-align: center; 
+    cursor: pointer
+}
+#ebook .indexTitle ul li.active{
+    background-color:#f60; 
+    color:#fff;
+}
+#ebook .liftList{
+    width: 237px;
+    background-color: #f9f9f9;
+}
+#ebook .liftList ul li{
+    line-height: 38px;
+    font-size: 14px;
+    color: #333333;
+}
+#ebook .liftList ul li a{
+    display: inline-block;
+    width: 70px;  
+}
+#ebook .middle{
+    width: 656px;
+    border: 1px solid #cccccc; 
+    border-top: none;  
+}
+#ebook .middle>ul{
+    display: none;
+}
+#ebook .middle ul.current{
+    display: block;
+}
+#ebook .middle>ul .fili{
+    width: 326px;
+}
+#ebook .middle ul li{
+    width: 162px;
+    height: 220px;
+    border: 1px solid #cccccc;
+    float: left;
+}
+#ebook .middle ul li h3{
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+#ebook .middle ul li p{
+    line-height: 20px;
+}
+#ebook .middle ul li p .ared{
+    color: #f4290d;
+    padding-left: 5px;
+}
+#ebook .middle ul li Img{
+    padding: 16px 0 8px 0;
+}
+#ebook .middle ul li .yen{
+    color: #f4290d;
+    padding-left: 5px;
+}
+#ebook .rightList{
+    width: 284px;
+    height: 444px;
+    border: 1px solid #cccccc;
+}
+#ebook .rightList h3{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: #808080;
+}
+#ebook .rightList ul li{
+    position: relative; 
+    border-bottom:2px solid #ccc;
+}
+#ebook .rightList ul li h4{ 
+    line-height: 40px;
+    text-indent: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+#ebook .rightList ul li h4.active{ 
+    display: none;
+}
+#ebook .rightList ul li span{ 
+    position: absolute; 
+    left:4px; 
+    top:10px;
+}
+#ebook .rightList ul li div{ 
+    display: none;
+    
+}
+#ebook .rightList ul li div.active{ 
+    display: block
+}
+#ebook .rightList ul li:last-child{ 
+    border:none;
+}
+/* cloth */
+/* cloth头部 */
+#cloth{
+    margin-top: 38px;    
+}
+#cloth .indexTitle ul li{
+    width:100px; 
+    height:32px; 
+    float:left; 
+    text-align: center; 
+    cursor: pointer
+}
+#cloth .indexTitle ul li.active{
+    background-color:#f60; 
+    color:#fff;
+}
+/* cloth左边内容 */
+#cloth .liftList{
+    width: 237px;
+    background-color: #f9f9f9;
+}
+#cloth .liftList ul li{
+    line-height: 38px;
+    font-size: 14px;
+    color: #333333;
+}
+#cloth .liftList ul li a{
+    display: inline-block;
+    width: 70px;  
+}
+/* cloth右边内容 */
+#cloth .rightul{
+    width: 963px;
+}
+#cloth .rightul ul.active{
+    display: block;
+}
+#cloth .rightul>ul{
+    -border: 1px solid #cccccc;
+    display: none;
+}
+#cloth .rightul ul .clothSlide{
+    width: 431px;
+    height: 334px;
+}
+#cloth .rightul ul .zxc{
+    width:  430px;
+    height: 153px;
+    overflow: hidden;
+}
+#cloth .rightul ul li{
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    float: left;
+    width: 176px;
+}
+
+/* cloth底部 */
+#cloth .clothFoot li{
+    float: left;
+}
+/* sport */
+/* sport头部 */
+#sport{
+    margin-top: 38px;    
+}
+#sport .indexTitle ul li{
+    width:100px; 
+    height:32px; 
+    float:left; 
+    text-align: center; 
+    cursor: pointer
+}
+#sport .indexTitle ul li.active{
+    background-color:#f60; 
+    color:#fff;
+}
+/* sport左边内容 */
+#sport .liftList{
+    width: 237px;
+    background-color: #f9f9f9;
+}
+#sport .liftList ul li{
+    line-height: 38px;
+    font-size: 14px;
+    color: #333333;
+}
+#sport .liftList ul li a{
+    display: inline-block;
+    width: 70px;  
+}
+/* sport右边内容 */
+#sport .rightul{
+    width: 963px;
+}
+#sport .rightul>ul{
+    -border: 1px solid #cccccc;
+    display: none;
+}
+#sport .rightul ul.active{
+    display: block;
+}
+#sport .rightul ul .sportSlide{
+    width: 430px;
+    height: 334px;
+}
+#sport .rightul ul .li1{
+    width: 176px;
+    height: 334px;
+}
+#sport .rightul ul .li2{
+    width: 176px;
+    height: 153px;
+}
+#sport .rightul ul .zxc{
+    width:  430px;
+    height: 153px;
+    overflow: hidden;
+}
+#sport .rightul ul li{
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    float: left;
+    width: 175px;
+}
+#sport .rightul ul li img{
+    width: 100%;
+    height: 100%;
+}
+/* sport底部 */
+#sport .sportFoot li{
+    float: left;
+}
+/* chCloth */
+/*chCloth头部 */
+#chCloth{
+    margin-top: 38px;    
+}
+#chCloth .indexTitle ul li{
+    width:100px; 
+    height:32px; 
+    float:left; 
+    text-align: center; 
+    cursor: pointer
+}
+#chCloth .indexTitle ul li.active{
+    background-color:#f60; 
+    color:#fff;
+}
+/* chCloth左边内容 */
+#chCloth .liftList{
+    width: 237px;
+    background-color: #f9f9f9;
+}
+#chCloth .liftList ul li{
+    line-height: 38px;
+    font-size: 14px;
+    color: #333333;
+}
+#chCloth .liftList ul li a{
+    display: inline-block;
+    width: 70px;  
+}
+/* chCloth右边内容 */
+#chCloth .rightul{
+    width: 963px;
+}
+#chCloth .rightul>ul{
+    -border: 1px solid #cccccc;
+    display: none;
+}
+#chCloth .rightul ul.active{
+    display: block;
+}
+#chCloth .rightul ul .chClothSlide{
+    width: 430px;
+    height: 334px;
+}
+#chCloth .rightul ul .li1{
+    width: 176px;
+    height: 334px;
+}
+#chCloth .rightul ul .li2{
+    width: 176px;
+    height: 153px;
+}
+#chCloth .rightul ul .zxc{
+    width:  430px;
+    height: 153px;
+    overflow: hidden;
+}
+#chCloth .rightul ul li{
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    float: left;
+    width: 175px;
+}
+#chCloth .rightul ul li img{
+    width: 100%;
+    height: 100%;
+}
+/* chCloth底部 */
+#chCloth .chClothFoot li{
+    float: left;
+}
+/* houshold */
+/* houshold头部 */
+#houshold .hhTitle{
+    line-height: 32px;
+    margin-top: 38px;
+    border-bottom: 6px solid #f60;
+}
+#houshold .hhTitle h2{
+    font-size: 20px;
+    font-weight: normal;
+    color: #333333;
+    padding-left: 14px;
+}
+/*houshold左边图片 */
+#houshold .limg{
+    width: 486px;
+    height: 504px;
+}
+#houshold .limg img{
+    width: 100%;
+    height: 100%;
+}
+/*houshold 右边图片*/
+#houshold .rimg{
+    -border: 1px solid #cccccc;
+    width: 712px;
+}
+#houshold .rimg ul li{
+    box-sizing: border-box;
+    float: left;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+#houshold .rimg ul .jaju1{
+    width: 178px;
+    height: 342px;
+}
+#houshold .rimg ul .jaju2{
+    width: 178px;
+    height: 160px;
+}
+#houshold .rimg ul li img{
+    width: 100%;
+    height: 100%;
+}
+/* popular头部 */
+#popular .popuTitle{
+    line-height: 32px;
+    margin-top: 38px;
+    border-bottom: 6px solid #f60;
+}
+#popular .popuTitle h2{
+    font-size: 20px;
+    font-weight: normal;
+    color: #f4290d;
+    padding-left: 14px;
+}
+#popular .popuTitle ul li{
+    font-size: 20px;
+    width:20px; 
+    height:31px; 
+    float:left; 
+    text-align: center; 
+    cursor: pointer;
+}
+#popular .popuTitle ul .active{
+    color: #f4290d;
+}
+/*产品列表部分 */
+#popular .cplist{
+    display: none;
+}
+#popular .cplist.active{
+    display: block;
+}
+#popular .cplist ul li{
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+#popular .cplist ul li>img{
+    width: 150px;
+    height: 150px;
+    margin: 25px 32px 11px 32px;
+}
+#popular .cplist ul li div{
+    width: 138px;
+    margin-left: 32px;
+}
+#popular .cplist ul li div h3{
+    font-size: 24px;
+    font-weight: normal;
+    color: #f4290d;
+}
+#popular .cplist ul li div span{
+    font-size: 13px;
+    color: #f4290d;
+}
+/*floor*/
+#floor{ 
+    width:40px; 
+    height:200px; 
+    background: #ccc; 
+    position:fixed; 
+    left:50%; 
+    margin-left:-650px; 
+    top:200px;
+}
+#floor li{
+    width:40px; 
+    height:40px;
+    background : url( "../images/floor.png") no-repeat; 
+    text-align: center;
+    line-height: 40px;
+    color:#fff; 
+    padding-left:40px; 
+    box-sizing: border-box; 
+    overflow: hidden;
+}
+#floor li.icon1{ 
+    background-position: 0 0;
+}
+#floor li.icon2{ 
+    background-position: 0 -80px;
+}
+#floor li.icon3{ 
+    background-position: 0 -160px;
+}
+#floor li.icon4{ 
+    background-position: 0 -200px;
+}
+#floor li.icon5{ 
+    background-position: 0 -320px;
+}
+/* 领券中心 */
+#getcenter{
+    width:40px;
+    position: fixed;
+    -position: relative;
+    top:100px;
+    right: -1px;
+}
+#getcenter .aBox{
+    position: relative;
+}
+#getcenter .aBox a{
+    position: absolute;
+    top:0
+}
+#getcenter a.two{
+    position: absolute;
+    top: 141px;
+}
+
+
+

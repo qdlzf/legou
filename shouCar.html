@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入购物车页面样式 -->
+    <link rel="stylesheet" href="./css/shopCar.css">
+    <!-- 引入轮播图插件样式 -->
+    <link rel="stylesheet" href="./css/slider.css">
+    <!-- 引入js文件 -->
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <!-- 引入轮播图js文件 -->
+    <script src="./js/slidebox.js"></script>
+    <!-- 引入购物车js文件 -->
+    <script src="./js/shopCar.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="top container-fluid">
+            <div class="container clearfix">
+                <p class="fr">欢迎光临
+                    <a href="#">乐购</a>，请
+                    <a href="#">登录</a>\
+                    <a href="#">注册</a>
+                </p>
+                <!-- logo -->
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="./images/LOGO_02.jpg" alt="">
+                    </a>
+                </h1>
+            </div>
+        </div>
+        <div class="container clearfix pt4 search">
+            
+            <form action="#" class="fr">
+                <input type="text" placeholder="创意文具" class="fl searchVal">
+                <input type="submit" class="fl btn" value="">
+            </form>
+        </div>
+        
+    </header>
+    <!-- shopCare -->
+    <section id="shopCar" class="container">
+        <!-- 购物结算 -->
+        <div class="shopAccount">
+            <div class="tbhead clearfix">
+                <h3 class="fl">填写并核对订单信息</h3>
+                <p class="fr" style="padding-right:40px;padding-bottom: 20px">配送至&nbsp;
+                    <select>
+                        <option value="">成都市高兴区天府新谷</option>
+                        <option value="">成都市高兴区天府新谷</option>
+                        <option value="">成都市高兴区天府新谷</option>
+                    </select>
+                </p>
+            </div>
+            <table>
+                <tr class="firstTr">
+                    <td width="100px"><input type="checkbox" class="allCheck">全选</td>
+                    <td width="300px">商品</td>
+                    <td width="100px">单价</td>
+                    <td width="300px">数量</td>
+                    <td width="200px">小计</td>
+                    <td width="200px">操作</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="sCheck"></td>
+                    <td><img src="./images/index08_05.jpg" alt="">从你的全世界路过</td>
+                    <td class="sPrice">41.00</td>
+                    <td class="clearfix">
+                        <span class="reNum">-</span>
+                        <input class="proNum" type="text" value="1">
+                        <span class="addNum">+</span>
+                    </td>
+                    <td class="subPrice">41.00</td>
+                    <td>删除</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="sCheck"></td>
+                    <td><img src="./images/index08_05.jpg" alt="">从你的全世界路过</td>
+                    <td class="sPrice">41.00</td>
+                    <td class="clearfix">
+                        <span class="reNum">-</span>
+                        <input class="proNum" type="text" value="1">
+                        <span class="addNum">+</span>
+                    </td>
+                    <td class="subPrice">41.00</td>
+                    <td>删除</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="sCheck"></td>
+                    <td><img src="./images/index08_05.jpg" alt="">从你的全世界路过</td>
+                    <td class="sPrice">41.00</td>
+                    <td class="clearfix">
+                        <span class="reNum">-</span>
+                        <input class="proNum" type="text" value="1">
+                        <span class="addNum">+</span>
+                    </td>
+                    <td class="subPrice">41.00</td>
+                    <td>删除</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="allCheck">全选</td>
+                    <td colspan="2">删除选中商品</td>
+                    <td>已选择<span class="aready">&nbsp;&nbsp;0&nbsp;&nbsp;</span>件商品</td>
+                    <td><span class="allPriceText">总价:</span><span class="allPrice">&nbsp;&nbsp;0:00</span></td>
+                    <td class="account">去结算</td>
+                </tr>
+            </table>
+        </div>
+        <!-- love -->
+        <!-- love头部 -->
+        <div class="loveTitle">
+            <h2>猜你喜欢</h2>
+        </div>
+        <!-- 内容 -->
+        <div class="love clearfix">
+            <ul class="fr">
+                <li>                       
+                    <a href="#"><img src="./images/discount1.jpg" alt=""></a>
+                    <img src="./images//D8.png" alt="" class="zhe8">
+                    <p>白夜行&nbsp;&nbsp;  东野上吾</p>
+                    <p>
+                    <span class="tj">推荐：</span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1ban.png" alt=""></span>
+                    </p>
+                    <span>￥:38</span>
+                </li>
+                <li>                       
+                    <a href="#"><img src="./images/discount1.jpg" alt=""></a>
+                    <img src="./images//D8.png" alt="" class="zhe8">
+                    <p>白夜行&nbsp;&nbsp;  东野上吾</p>
+                    <p>
+                    <span class="tj">推荐：</span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1ban.png" alt=""></span>
+                    </p>
+                    <span>￥:38</span>
+                </li>
+                <li>                       
+                    <a href="#"><img src="./images/discount1.jpg" alt=""></a>
+                    <img src="./images//D8.png" alt="" class="zhe8">
+                    <p>白夜行&nbsp;&nbsp;  东野上吾</p>
+                    <p>
+                    <span class="tj">推荐：</span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1ban.png" alt=""></span>
+                    </p>
+                    <span>￥:38</span>
+                </li>
+                <li>                       
+                    <a href="#"><img src="./images/discount1.jpg" alt=""></a>
+                    <img src="./images//D8.png" alt="" class="zhe8">
+                    <p>白夜行&nbsp;&nbsp;  东野上吾</p>
+                    <p>
+                    <span class="tj">推荐：</span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1ban.png" alt=""></span>
+                    </p>
+                    <span>￥:38</span>
+                </li>
+                <li>                       
+                    <a href="#"><img src="./images/discount1.jpg" alt=""></a>
+                    <img src="./images//D8.png" alt="" class="zhe8">
+                    <p>白夜行&nbsp;&nbsp;  东野上吾</p>
+                    <p>
+                    <span class="tj">推荐：</span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1.png" alt=""></span>
+                    <span><img src="./images/X1ban.png" alt=""></span>
+                    </p>
+                    <span>￥:38</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- 广告图 -->
+    <section id="banner" class="container">
+        <img src="./images/listbannertwo.png" alt="">
+    </section>
+    <!-- footer -->
+    <section id="footer" class="clearfix ">
+            <!-- 尾部top -->
+            <div class="footTop clearfix">
+                <a href="#"><img src="./images/222_11.png" alt=""></a>
+                <a href="#"><img src="./images/222_11.png" alt=""></a>
+                <a href="#"><img src="./images/222_11.png" alt=""></a>
+                <a href="#"><img src="./images/222_11.png" alt=""></a>               
+            </div>
+            <!-- foot购物导航部分 -->
+            <div class="footMiddle clearfix">
+                <ul>
+                    <li><a href="#">购物指南</a></li>
+                    <li><a href="#">购物流程</a></li>
+                    <li><a href="#">发票制度</a></li>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">会员优惠</a></li>
+                </ul>
+                <ul>
+                    <li class="firstli"><a href="#">支付方式</a></li>
+                    <li><a href="#">购物流程</a></li>
+                    <li><a href="#">发票制度</a></li>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">会员优惠</a></li>
+                </ul>
+                <ul>
+                    <li class="firstli"><a href="#">订单服务</a></li>
+                    <li><a href="#">购物流程</a></li>
+                    <li><a href="#">发票制度</a></li>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">会员优惠</a></li>
+                </ul>
+                <ul>
+                    <li class="firstli"><a href="#">退换货</a></li>
+                    <li><a href="#">购物流程</a></li>
+                    <li><a href="#">发票制度</a></li>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">会员优惠</a></li>
+                </ul>
+                <ul>
+                    <li class="firstli"><a href="#">商家服务</a></li>
+                    <li><a href="#">购物流程</a></li>
+                    <li><a href="#">发票制度</a></li>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">会员优惠</a></li>
+                </ul>
+                <img src="./images/logo_00.png" alt="">
+            </div>
+            <!-- 尾部链接 -->
+            <div class="footline container">
+                <ul class="clearfix">
+                    <li><a href="#">公司简介</a></li>
+                    <li><a href="#">Investor Relations </a></li>
+                    <li><a href="#"> 网站联盟</a></li>
+                    <li><a href="#">乐购招商</a></li>
+                    <li><a href="#">机构销售</a></li>
+                    <li><a href="#">手机乐购</a></li>
+                    <li><a href="#">官方Blog</a></li>
+                    <li><a href="#">热词搜索</a></li>
+                </ul>
+            </div>
+            <!-- 尾部 -->
+            <p>Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+    </section>    
+</body>
+</html>

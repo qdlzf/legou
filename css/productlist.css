@@ -1,0 +1,276 @@
+/* 设置样式编码格式 */
+@charset "utf-8";
+/* slideMenu */
+/* 轮播图 */
+#slideMenu .sah .slide{
+    width: 1200px;
+    height: 400px;
+    border: 1px solid #cccccc;
+}
+.banner1{
+    width: 1200px;
+    margin-top: 20px;
+}
+/* discount */
+/* discountTitle */
+#discount .discountTitle{
+    width: 1200px;
+    border-bottom: 6px solid #f60;
+    margin-top: 22px;
+}
+#discount .discountTitle h2{
+    width: 180px;
+    font-size: 20px;
+    font-weight: normal;
+    background: #f60;
+    color: #ffffff;
+    text-align: center;
+    line-height: 38px;
+}
+/* discount内容 */
+#discount .discountMenu ul li{
+    float: left;
+    width: 240px;
+    position: relative;
+}
+#discount .discountMenu ul li:hover{
+    background-color: #f2f2f2;
+}
+#discount .discountMenu ul li a img{
+    display: block;
+    margin:0 auto;
+    padding-top: 10px;
+}
+#discount .discountMenu ul li p{
+    text-indent:10px; 
+    line-height: 24px;
+}
+#discount .discountMenu ul li p span.tj{
+    color:#f4290d;
+}
+#discount .discountMenu ul li>span{
+    padding-left: 6px;
+    margin-bottom: 16px;
+    color: #f4290d;
+    font-size: 24px;
+}
+/* newbook头部 */
+#newBook{
+    position: relative;
+}
+#newBook .nbTitle{
+    width: 902px;
+    border-bottom: #f60 6px solid;
+    line-height: 38px;
+    margin-top: 38px;
+}
+#newBook .nbTitle h2{
+    font-size: 22px;
+    font-weight: normal;
+    color: #333333;
+}
+#newBook .nbTitle h2 span{
+    background: #f60;
+    float:left; 
+    width: 42px; 
+    height:38px; 
+    font-size:28px; 
+    text-align: center; 
+    color:#fff; 
+    margin-right:4px;
+}
+/* newbook列表 */
+#newBook .nbList{
+    width: 900px;
+    border: 1px solid #cccccc;
+}
+#newBook .nbList ul li{
+    width: 180px;
+    float: left;
+}
+#newBook .nbList ul li:hover{
+    background: #cccccc;
+}
+#newBook .nbList ul li a img{
+    display: block;
+    margin:0 auto;
+    padding-top: 10px;
+}
+#newBook .nbList ul li p{
+    line-height: 24px;
+    text-indent: 10px;
+}
+#newBook .nbList ul li p span{
+    color: #f4290d;
+}
+/* nbbook右边内容 */
+#newBook .rightList{
+    width: 284px;
+    height: 470px;
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 38px;
+    right: 0px;
+}
+#newBook .rightList h3{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: #808080;
+}
+#newBook .rightList ul li{
+    position: relative; 
+    border-bottom:1px solid #ccc;
+}
+#newBook .rightList ul li h4{ 
+    line-height: 40px;
+    text-indent: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+#newBook .rightList ul li h4.active{ 
+    display: none;
+}
+#newBook .rightList ul li span{ 
+    position: absolute; 
+    left:4px; 
+    top:10px;
+}
+#newBook .rightList ul li div{ 
+    display: none;
+    
+}
+#newBook .rightList ul li div.active{ 
+    display: block
+}
+#newBook .rightList ul li:last-child{ 
+    border:none;
+}
+/* exclusive头部 */
+#exclusive .siveTitle{
+    border-bottom: #f60 6px solid;
+    line-height: 38px;
+    margin-top: 38px;
+}
+#exclusive .siveTitle h2{
+    font-size: 22px;
+    font-weight: normal;
+    color: #333333;
+    float: left;
+}
+#exclusive .siveTitle h2 span{
+    background: #f60;
+    float:left; 
+    width: 42px; 
+    height:38px; 
+    font-size:28px; 
+    text-align: center; 
+    color:#fff; 
+    margin-right:4px;
+}
+#exclusive .siveTitle li{ 
+    float: left;
+    width:100px; 
+    height:38px; 
+    line-height: 38px;  
+    text-align: center; 
+    cursor: pointer;
+    font-size: 16px;
+    color: #333333;  
+}
+#exclusive .siveTitle li.active{ 
+    background-color: #f60; 
+    color:#fff;
+}
+/* exclusive轮播类容 */
+.innerwrapper .siveSlideBox{ 
+    width:1120px;
+    -height: 490px; 
+    margin:0 40px ;
+    
+}
+.siveSlideBox .siveListBox{
+    float:left; 
+    width:186px; 
+    box-sizing: border-box;
+    padding:10px; 
+    line-height: 24px;
+    -background: #ccc;
+}
+.siveSlideBox .siveListBox p a img{
+    display: block;
+    margin:0 auto;
+}
+.siveSlideBox .siveListBox p span{
+    color: #f91616;
+}
+/* yourlove头部 */
+#yourLove .loveTitle{
+    border-bottom: #f60 6px solid;
+    line-height: 38px;
+    margin-top: 38px;
+}
+#yourLove .loveTitle h2{
+    font-size: 22px;
+    font-weight: normal;
+    color: #333333;
+    float: left;
+}
+#yourLove .loveTitle h2 span{
+    background: #f60;
+    float:left; 
+    width: 42px; 
+    height:38px; 
+    font-size:28px; 
+    text-align: center; 
+    color:#fff; 
+    margin-right:4px;
+}
+#yourLove .loveTitle p{
+    color: #468bfd;
+    cursor: pointer;
+}
+/* yourlove内容 */
+#yourLove .loveList .loveSlideBox{ 
+    width:1120px;
+    -height: 490px; 
+    margin:0 auto;
+}
+#yourLove .loveSlideBox .loveListBox{
+    float:left; 
+    width:186px; 
+    box-sizing: border-box;
+    padding:10px; 
+    line-height: 24px;
+    -background: #ccc;
+}
+#yourLove .loveSlideBox .loveListBox p a img{
+    display: block;
+    margin:0 auto;
+}
+#yourLove .loveSlideBox .loveListBox p span{
+    color: #f91616;
+}
+#yourLove .loveList{
+    width:100%; 
+    height:488px; 
+    overflow: hidden;  
+    position: relative
+}
+#love .loveList .loveBox{
+    width:100%; 
+    position: absolute;
+}
+/* bottom */
+/* btList */
+#bottom .btList{
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+}
+#bottom .btList ul li{
+    width: 200px;
+    float: left;
+}
+
